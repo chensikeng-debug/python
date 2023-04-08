@@ -1,0 +1,11 @@
+{
+  "security.protocol": "SSL_PLAINTEXT",
+  "sasl.mechanism": "GSSAPI",
+  "sasl.kerberos.service.name": "kafka",
+  "java.security.krb5.conf": "/etc/krb5.cong",
+  "bootstrap.server": "kafka.example.com:9092",
+  "group.id": "gid",
+  "session.timeout.ms": "earliest",
+  "key.deserializer": "org.apache.kafka.common.serialization.StringDeserializer",
+  "value.deserializer": "org.apache.kafka.common.serialization.StringDeserializer"
+}
